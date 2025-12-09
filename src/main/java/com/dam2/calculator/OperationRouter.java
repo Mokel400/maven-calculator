@@ -2,6 +2,7 @@ package com.dam2.calculator;
 
 import com.dam2.calculator.ops.OpResta;
 import com.dam2.calculator.ops.OpSuma;
+import com.dam2.calculator.ops.OpMax;
 
 public class OperationRouter {
 
@@ -17,7 +18,8 @@ public class OperationRouter {
         switch (op.trim().toLowerCase()) {
             case "suma": return OpSuma.run(input);
             case "resta": return OpResta.run(input);
-
+            case "maximo" : return OpMax.run(input);
+            
             default: return "Operación no reconocida. Escribe 'help'.";
             
            
