@@ -8,7 +8,7 @@ import com.dam2.calculator.ops.OpMax;
 
 public class OperationRouter {
 
-    private static final String OPS_LINE = "Operaciones: suma, resta, multiplicacion";
+    private static final String OPS_LINE = "Operaciones: suma, resta, multiplicacion, division";
 
     public static String help() {
         return OPS_LINE + "\n" +
