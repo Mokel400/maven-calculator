@@ -6,7 +6,7 @@ import com.dam2.calculator.ops.OpSuma;
 
 public class OperationRouter {
 
-    private static final String OPS_LINE = "Operaciones: suma, resta";
+    private static final String OPS_LINE = "Operaciones: suma, resta, division";
 
     public static String help() {
         return OPS_LINE + "\n" +
